@@ -1,0 +1,12 @@
+C:\PruebaFullStack\Backend\LibraryConnection\bin\Release\net8.0\LibraryConnection.deps.json
+C:\PruebaFullStack\Backend\LibraryConnection\bin\Release\net8.0\LibraryConnection.dll
+C:\PruebaFullStack\Backend\LibraryConnection\bin\Release\net8.0\LibraryConnection.pdb
+C:\PruebaFullStack\Backend\LibraryConnection\obj\Release\net8.0\LibraryConnection.csproj.AssemblyReference.cache
+C:\PruebaFullStack\Backend\LibraryConnection\obj\Release\net8.0\LibraryConnection.GeneratedMSBuildEditorConfig.editorconfig
+C:\PruebaFullStack\Backend\LibraryConnection\obj\Release\net8.0\LibraryConnection.AssemblyInfoInputs.cache
+C:\PruebaFullStack\Backend\LibraryConnection\obj\Release\net8.0\LibraryConnection.AssemblyInfo.cs
+C:\PruebaFullStack\Backend\LibraryConnection\obj\Release\net8.0\LibraryConnection.csproj.CoreCompileInputs.cache
+C:\PruebaFullStack\Backend\LibraryConnection\obj\Release\net8.0\LibraryConnection.dll
+C:\PruebaFullStack\Backend\LibraryConnection\obj\Release\net8.0\refint\LibraryConnection.dll
+C:\PruebaFullStack\Backend\LibraryConnection\obj\Release\net8.0\LibraryConnection.pdb
+C:\PruebaFullStack\Backend\LibraryConnection\obj\Release\net8.0\ref\LibraryConnection.dll

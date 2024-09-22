@@ -1,0 +1,27 @@
+CREATE TABLE Roles (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(100) NOT NULL
+);
+
+
+CREATE TABLE Users (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    FirstName NVARCHAR(100) NOT NULL,
+    LastName NVARCHAR(100) NOT NULL,
+    Email NVARCHAR(150) NOT NULL UNIQUE,  -- Email es único
+    Password NVARCHAR(255) NOT NULL,
+    RolId INT NOT NULL,
+    CONSTRAINT FK_Users_Roles FOREIGN KEY (RolId) REFERENCES Roles(Id)
+);
+
+CREATE TABLE Tasks (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(100) NOT NULL,
+    Description NVARCHAR(MAX) NULL,
+    Status NVARCHAR(50) NOT NULL,
+    AssignedToUserId INT,  -- El empleado asignado a la tarea
+    AssignedByUserId INT,  -- El supervisor que asigna la tarea
+    CONSTRAINT FK_Tasks_Employee FOREIGN KEY (AssignedToUserId) REFERENCES Users(Id),
+    CONSTRAINT FK_Tasks_Supervisor FOREIGN KEY (AssignedByUserId) REFERENCES Users(Id),
+    CONSTRAINT CHK_Tasks_Status CHECK (Status IN ('Pending', 'In Progress', 'Completed'))  -- Restricción para los valores permitidos en Status
+);

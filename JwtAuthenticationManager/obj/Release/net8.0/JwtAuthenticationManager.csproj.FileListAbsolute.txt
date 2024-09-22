@@ -1,0 +1,15 @@
+C:\PruebaFullStack\Backend\JwtAuthenticationManager\bin\Release\net8.0\JwtAuthenticationManager.deps.json
+C:\PruebaFullStack\Backend\JwtAuthenticationManager\bin\Release\net8.0\JwtAuthenticationManager.dll
+C:\PruebaFullStack\Backend\JwtAuthenticationManager\bin\Release\net8.0\JwtAuthenticationManager.pdb
+C:\PruebaFullStack\Backend\JwtAuthenticationManager\bin\Release\net8.0\LibraryConnection.dll
+C:\PruebaFullStack\Backend\JwtAuthenticationManager\bin\Release\net8.0\LibraryConnection.pdb
+C:\PruebaFullStack\Backend\JwtAuthenticationManager\obj\Release\net8.0\JwtAuthenticationManager.csproj.AssemblyReference.cache
+C:\PruebaFullStack\Backend\JwtAuthenticationManager\obj\Release\net8.0\JwtAuthenticationManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\PruebaFullStack\Backend\JwtAuthenticationManager\obj\Release\net8.0\JwtAuthenticationManager.AssemblyInfoInputs.cache
+C:\PruebaFullStack\Backend\JwtAuthenticationManager\obj\Release\net8.0\JwtAuthenticationManager.AssemblyInfo.cs
+C:\PruebaFullStack\Backend\JwtAuthenticationManager\obj\Release\net8.0\JwtAuthenticationManager.csproj.CoreCompileInputs.cache
+C:\PruebaFullStack\Backend\JwtAuthenticationManager\obj\Release\net8.0\JwtAuthe.27E6DA6D.Up2Date
+C:\PruebaFullStack\Backend\JwtAuthenticationManager\obj\Release\net8.0\JwtAuthenticationManager.dll
+C:\PruebaFullStack\Backend\JwtAuthenticationManager\obj\Release\net8.0\refint\JwtAuthenticationManager.dll
+C:\PruebaFullStack\Backend\JwtAuthenticationManager\obj\Release\net8.0\JwtAuthenticationManager.pdb
+C:\PruebaFullStack\Backend\JwtAuthenticationManager\obj\Release\net8.0\ref\JwtAuthenticationManager.dll

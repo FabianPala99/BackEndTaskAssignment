@@ -1,0 +1,695 @@
+{
+	"info": {
+		"_postman_id": "12c218da-a279-4bc6-9a96-fbcc03704a3c",
+		"name": "TaskAssignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "VerifyToken",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWRtaW4gQWRtaW4iLCJpZCI6IjkiLCJuYmYiOjE3MjY5NTY0MzMsImV4cCI6MTcyNjk2NTQzMywiaWF0IjoxNzI2OTU2NDMzfQ.AZd9UMXuH2kQ7-J6xZDrS5An42XcKxICGCHWU94YGBY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://backendtaskassignment.azurewebsites.net/Authentication/VerifyToken",
+							"protocol": "https",
+							"host": [
+								"backendtaskassignment",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Authentication",
+								"VerifyToken"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Authentication",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"admin@gmail.com\",\r\n  \"password\": \"admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://backendtaskassignment.azurewebsites.net/Authentication",
+							"protocol": "https",
+							"host": [
+								"backendtaskassignment",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Authentication"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "UserAdministration",
+			"item": [
+				{
+					"name": "Users",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWRtaW4gQWRtaW4iLCJpZCI6IjkiLCJuYmYiOjE3MjcwNDQyNDIsImV4cCI6MTcyNzA1MzI0MiwiaWF0IjoxNzI3MDQ0MjQyfQ.7UmD3oMDSMrk0yTXKwN3ga0BfEKtgWf9D07eI6uBhu4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://backendtaskassignment.azurewebsites.net/UserAdministration/Users",
+							"protocol": "https",
+							"host": [
+								"backendtaskassignment",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"UserAdministration",
+								"Users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SupervisoryUsers",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWRtaW4gQWRtaW4iLCJpZCI6IjkiLCJuYmYiOjE3MjcwNDQyNDIsImV4cCI6MTcyNzA1MzI0MiwiaWF0IjoxNzI3MDQ0MjQyfQ.7UmD3oMDSMrk0yTXKwN3ga0BfEKtgWf9D07eI6uBhu4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://backendtaskassignment.azurewebsites.net/UserAdministration/SupervisoryUsers",
+							"protocol": "https",
+							"host": [
+								"backendtaskassignment",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"UserAdministration",
+								"SupervisoryUsers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EmployedUsers",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWRtaW4gQWRtaW4iLCJpZCI6IjkiLCJuYmYiOjE3MjcwNDQyNDIsImV4cCI6MTcyNzA1MzI0MiwiaWF0IjoxNzI3MDQ0MjQyfQ.7UmD3oMDSMrk0yTXKwN3ga0BfEKtgWf9D07eI6uBhu4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://backendtaskassignment.azurewebsites.net/UserAdministration/EmployedUsers",
+							"protocol": "https",
+							"host": [
+								"backendtaskassignment",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"UserAdministration",
+								"EmployedUsers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UserById",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWRtaW4gQWRtaW4iLCJpZCI6IjkiLCJuYmYiOjE3MjcwNDQyNDIsImV4cCI6MTcyNzA1MzI0MiwiaWF0IjoxNzI3MDQ0MjQyfQ.7UmD3oMDSMrk0yTXKwN3ga0BfEKtgWf9D07eI6uBhu4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://backendtaskassignment.azurewebsites.net/UserAdministration/UserById?idUser=25",
+							"protocol": "https",
+							"host": [
+								"backendtaskassignment",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"UserAdministration",
+								"UserById"
+							],
+							"query": [
+								{
+									"key": "idUser",
+									"value": "25"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWRtaW4gQWRtaW4iLCJpZCI6IjkiLCJuYmYiOjE3MjcwNDQyNDIsImV4cCI6MTcyNzA1MzI0MiwiaWF0IjoxNzI3MDQ0MjQyfQ.7UmD3oMDSMrk0yTXKwN3ga0BfEKtgWf9D07eI6uBhu4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"string\",\r\n  \"lastName\": \"string\",\r\n  \"email\": \"string\",\r\n  \"password\": \"string\",\r\n  \"rolId\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://backendtaskassignment.azurewebsites.net/UserAdministration/User",
+							"protocol": "https",
+							"host": [
+								"backendtaskassignment",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"UserAdministration",
+								"User"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User Copy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWRtaW4gQWRtaW4iLCJpZCI6IjkiLCJuYmYiOjE3MjcwNDQyNDIsImV4cCI6MTcyNzA1MzI0MiwiaWF0IjoxNzI3MDQ0MjQyfQ.7UmD3oMDSMrk0yTXKwN3ga0BfEKtgWf9D07eI6uBhu4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 0,\r\n  \"firstName\": \"string\",\r\n  \"lastName\": \"string\",\r\n  \"email\": \"string\",\r\n  \"password\": \"string\",\r\n  \"rolId\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://backendtaskassignment.azurewebsites.net/UserAdministration/User",
+							"protocol": "https",
+							"host": [
+								"backendtaskassignment",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"UserAdministration",
+								"User"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWRtaW4gQWRtaW4iLCJpZCI6IjkiLCJuYmYiOjE3MjY5NzM1ODcsImV4cCI6MTcyNjk4MjU4NywiaWF0IjoxNzI2OTczNTg3fQ.gK0-pIec3yZdTK2ae9jzCq3zjdGStz1my4dVvHTjaUU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://backendtaskassignment.azurewebsites.net/UserAdministration/User?idUser=12",
+							"protocol": "https",
+							"host": [
+								"backendtaskassignment",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"UserAdministration",
+								"User"
+							],
+							"query": [
+								{
+									"key": "idUser",
+									"value": "12"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer"
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "TaskAdministration",
+			"item": [
+				{
+					"name": "Tasks",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWRtaW4gQWRtaW4iLCJpZCI6IjkiLCJuYmYiOjE3MjcwNDQ2MDksImV4cCI6MTcyNzA1MzYwOSwiaWF0IjoxNzI3MDQ0NjA5fQ.2xzjxXtNOKs6p_FpIRITG19lEf8rStpZE_KmQaZUGtk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://backendtaskassignment.azurewebsites.net/TaskAdministration/Tasks",
+							"protocol": "https",
+							"host": [
+								"backendtaskassignment",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"TaskAdministration",
+								"Tasks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TasksBySupervisory",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWRtaW4gQWRtaW4iLCJpZCI6IjkiLCJuYmYiOjE3MjcwNDQ2MDksImV4cCI6MTcyNzA1MzYwOSwiaWF0IjoxNzI3MDQ0NjA5fQ.2xzjxXtNOKs6p_FpIRITG19lEf8rStpZE_KmQaZUGtk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://backendtaskassignment.azurewebsites.net/TaskAdministration/TasksBySupervisory?idUser=24",
+							"protocol": "https",
+							"host": [
+								"backendtaskassignment",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"TaskAdministration",
+								"TasksBySupervisory"
+							],
+							"query": [
+								{
+									"key": "idUser",
+									"value": "24"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TasksByEmployed",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWRtaW4gQWRtaW4iLCJpZCI6IjkiLCJuYmYiOjE3MjcwNDQ2MDksImV4cCI6MTcyNzA1MzYwOSwiaWF0IjoxNzI3MDQ0NjA5fQ.2xzjxXtNOKs6p_FpIRITG19lEf8rStpZE_KmQaZUGtk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://backendtaskassignment.azurewebsites.net/TaskAdministration/TasksByEmployed?idUser=25",
+							"protocol": "https",
+							"host": [
+								"backendtaskassignment",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"TaskAdministration",
+								"TasksByEmployed"
+							],
+							"query": [
+								{
+									"key": "idUser",
+									"value": "25"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TaskById",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWRtaW4gQWRtaW4iLCJpZCI6IjkiLCJuYmYiOjE3MjcwNDQ2MDksImV4cCI6MTcyNzA1MzYwOSwiaWF0IjoxNzI3MDQ0NjA5fQ.2xzjxXtNOKs6p_FpIRITG19lEf8rStpZE_KmQaZUGtk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://backendtaskassignment.azurewebsites.net/TaskAdministration/TaskById?idTask=1",
+							"protocol": "https",
+							"host": [
+								"backendtaskassignment",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"TaskAdministration",
+								"TaskById"
+							],
+							"query": [
+								{
+									"key": "idTask",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Task",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWRtaW4gQWRtaW4iLCJpZCI6IjkiLCJuYmYiOjE3MjY5ODY1MTMsImV4cCI6MTcyNjk5NTUxMywiaWF0IjoxNzI2OTg2NTEzfQ.rCO_J0-BA_c7MQOhlILb8Rzo-Gpztl1Xc1nq5F5V0Gk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"string\",\r\n  \"description\": \"string\",\r\n  \"status\": \"string\",\r\n  \"assignedToUserId\": 0,\r\n  \"assignedByUserId\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://backendtaskassignment.azurewebsites.net/TaskAdministration/Task",
+							"protocol": "https",
+							"host": [
+								"backendtaskassignment",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"TaskAdministration",
+								"Task"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Task Copy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWRtaW4gQWRtaW4iLCJpZCI6IjkiLCJuYmYiOjE3MjY5ODY1MTMsImV4cCI6MTcyNjk5NTUxMywiaWF0IjoxNzI2OTg2NTEzfQ.rCO_J0-BA_c7MQOhlILb8Rzo-Gpztl1Xc1nq5F5V0Gk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 0,\r\n  \"name\": \"string\",\r\n  \"description\": \"string\",\r\n  \"status\": \"string\",\r\n  \"assignedToUserId\": 0,\r\n  \"assignedByUserId\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://backendtaskassignment.azurewebsites.net/TaskAdministration/Task",
+							"protocol": "https",
+							"host": [
+								"backendtaskassignment",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"TaskAdministration",
+								"Task"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Task Copy 2",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWRtaW4gQWRtaW4iLCJpZCI6IjkiLCJuYmYiOjE3MjY5ODY1MTMsImV4cCI6MTcyNjk5NTUxMywiaWF0IjoxNzI2OTg2NTEzfQ.rCO_J0-BA_c7MQOhlILb8Rzo-Gpztl1Xc1nq5F5V0Gk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"string\",\r\n  \"description\": \"string\",\r\n  \"status\": \"string\",\r\n  \"assignedToUserId\": 0,\r\n  \"assignedByUserId\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://backendtaskassignment.azurewebsites.net/TaskAdministration/Task?idTask=1",
+							"protocol": "https",
+							"host": [
+								"backendtaskassignment",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"TaskAdministration",
+								"Task"
+							],
+							"query": [
+								{
+									"key": "idTask",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "RolAdministration",
+			"item": [
+				{
+					"name": "Roles",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWRtaW4gQWRtaW4iLCJpZCI6IjkiLCJuYmYiOjE3MjcwNDUxMjYsImV4cCI6MTcyNzA1NDEyNiwiaWF0IjoxNzI3MDQ1MTI2fQ.uY3breCNqUEi2nHozLsGerblnXjCNo5gEQ2ORRnUunU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://backendtaskassignment.azurewebsites.net/RolAdministration/Roles",
+							"protocol": "https",
+							"host": [
+								"backendtaskassignment",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"RolAdministration",
+								"Roles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RolById",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWRtaW4gQWRtaW4iLCJpZCI6IjkiLCJuYmYiOjE3MjcwNDUxMjYsImV4cCI6MTcyNzA1NDEyNiwiaWF0IjoxNzI3MDQ1MTI2fQ.uY3breCNqUEi2nHozLsGerblnXjCNo5gEQ2ORRnUunU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://backendtaskassignment.azurewebsites.net/RolAdministration/RolById?idUser=1",
+							"protocol": "https",
+							"host": [
+								"backendtaskassignment",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"RolAdministration",
+								"RolById"
+							],
+							"query": [
+								{
+									"key": "idUser",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
