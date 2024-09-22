@@ -16,6 +16,7 @@ A full-stack **Task Assignment Management** web application built using **.NET 8
 2. [Technologies Used](#technologies-used)
 3. [Setup Instructions](#setup-instructions)
 4. [Deployment on Azure](#deployment-on-azure)
+5. [Postman Collection](#postman-collection)
 
 ## Features
 
@@ -96,4 +97,15 @@ The `DB` folder contains the following:
 
 - **Model**: The database schema model.
 - **ScriptDB.sql**: SQL script for creating tables and relationships.
+
+## Postman Collection
+
+In the `collection` folder, you will find a **Postman collection** (`TaskAssignmentCollection.json`) that includes all the necessary endpoints for testing the API.
+
+1. Import the collection into Postman to quickly start testing the API.
+2. The collection includes endpoints for:
+   - User login
+   - CRUD operations for users and tasks
+   - Role-based access management
+3. Ensure that you set the proper authorization token in the Postman environment after logging in.
 
